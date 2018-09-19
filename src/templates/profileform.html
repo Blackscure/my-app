@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block content %}
+
+    <form action="/addprofile" method="get">
+        Name: <input type="text" name="myname">
+        <br>
+        state of residence: <input type="text" name="state_of_residence">
+        <br>
+        <input type="submit" value="submit">
+
+    </form>
+
+{% endblock %}
